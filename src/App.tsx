@@ -1,11 +1,13 @@
 import './App.css'
 import Header from './components/header'
+import Hero from './components/hero'
 
 function App() {
 
   return (
-   <div className="bg-black min-h-screen">
+   <div className="bg-black">
       <Header />
+        <Hero />
     </div>
   )
 }
