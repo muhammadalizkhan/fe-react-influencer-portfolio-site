@@ -6,6 +6,8 @@ import WhoWeAre from './components/who-we-are'
 import WhatWeDo from './components/what-we-do'
 import Contact from './components/contact-us'
 import Insights from './components/insight'
+import Podcasts from './components/podcasts'
+import Footer from './components/footer'
 
 function App() {
 
@@ -18,6 +20,8 @@ function App() {
       <WhatWeDo />
       <Contact  />
       <Insights />
+      <Podcasts />
+      <Footer />
     </div>
   )
 }
