@@ -4,6 +4,8 @@ import Hero from './components/hero'
 import Services from './components/services'
 import WhoWeAre from './components/who-we-are'
 import WhatWeDo from './components/what-we-do'
+import Contact from './components/contact-us'
+import Insights from './components/insight'
 
 function App() {
 
@@ -14,6 +16,8 @@ function App() {
       <Services />
       <WhoWeAre />
       <WhatWeDo />
+      <Contact  />
+      <Insights />
     </div>
   )
 }
